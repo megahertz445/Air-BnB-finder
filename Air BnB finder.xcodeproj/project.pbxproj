@@ -11,6 +11,7 @@
 		98001D4B2891C0C200A65EFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98001D4A2891C0C200A65EFD /* ContentView.swift */; };
 		98001D4D2891C0C300A65EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98001D4C2891C0C300A65EFD /* Assets.xcassets */; };
 		98001D502891C0C300A65EFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98001D4F2891C0C300A65EFD /* Preview Assets.xcassets */; };
+		98001D572891C3E400A65EFD /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98001D562891C3E400A65EFD /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		98001D4A2891C0C200A65EFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98001D4C2891C0C300A65EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98001D4F2891C0C300A65EFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98001D562891C3E400A65EFD /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				98001D482891C0C200A65EFD /* Air_BnB_finderApp.swift */,
 				98001D4A2891C0C200A65EFD /* ContentView.swift */,
 				98001D4C2891C0C300A65EFD /* Assets.xcassets */,
+				98001D562891C3E400A65EFD /* SwiftyJSON.swift */,
 				98001D4E2891C0C300A65EFD /* Preview Content */,
 			);
 			path = "Air BnB finder";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98001D572891C3E400A65EFD /* SwiftyJSON.swift in Sources */,
 				98001D4B2891C0C200A65EFD /* ContentView.swift in Sources */,
 				98001D492891C0C200A65EFD /* Air_BnB_finderApp.swift in Sources */,
 			);
