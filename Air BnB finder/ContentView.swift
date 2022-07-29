@@ -18,9 +18,7 @@ struct ContentView: View {
                         Text(hotel.title)
                             .font(.title)
                             .fontWeight(.semibold)
-                            .background(
-                                Image("Plane")
-                            )
+                            .foregroundColor(.black)
                     }
             }
             .navigationTitle("AirBNBs")
@@ -35,13 +33,13 @@ struct ContentView: View {
         }
     }
     func getHotels() {
-        let apiKey = "?rapidapi-key=bbb0e8c206msh86e035ac7d9c2aep11e474jsnd83dd2780ad0"
+        let apiKey = "?rapidapi-key=8ad147c7fbmsh0d49cfaaf12e1f9p1d09b2jsn0a2f01d49f01"
         let query = "https://airbnb19.p.rapidapi.com/api/v1/getCategory\(apiKey)"
         if let url = URL(string: query) {
             if let data = try? Data(contentsOf: url) {
                 let json = try! JSON(data: data)
-                if json["success"] == true {
-                    let contents = json["body"].arrayValue
+                if json["message"] == "Success" {
+                    let contents = json["data"].arrayValue
                     for item in contents {
                         let Image = item["image"].stringValue
                         let iD = item["iD"].stringValue
